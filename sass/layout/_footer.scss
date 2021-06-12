@@ -1,0 +1,99 @@
+.footer {
+  padding: 60px 0;
+
+  background-color: #2f303a;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__address-container {
+  margin-right: 70px;
+}
+
+.footer__logo {
+  margin-bottom: 20px;
+}
+
+.address__contacts-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.address__contacts-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.address__postal-link {
+  color: var(--primary-white-color);
+}
+
+.address__email-link,
+.address__tel-link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-subscription__head {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+}
+
+.subscription-form {
+  display: flex;
+}
+
+.subscription-form__field {
+  margin-right: 12px;
+}
+
+.subscription-form__input {
+  width: 358px;
+  height: 50px;
+  padding: 0 16px;
+
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.subscription-form__input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscription-form__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 28px;
+
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
+  border-radius: 4px;
+  background-color: var(--accent-color);
+}
+
+.subscription-form__icon {
+  margin-left: 10px;
+  fill: var(--primary-white-color);
+}

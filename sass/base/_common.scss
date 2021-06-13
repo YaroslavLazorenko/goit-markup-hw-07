@@ -32,8 +32,8 @@ img {
 
 body {
   min-width: 1200px;
-  font-family: var(--main-font);
+  font-family: $main-font;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
-  background-color: var(--primary-white-color);
+  color: $primary-text-color;
+  background-color: $primary-white-color;
 }

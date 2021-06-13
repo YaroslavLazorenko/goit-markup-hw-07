@@ -1,19 +1,19 @@
 .logo {
   display: block;
 
-  font-family: var(--secondary-font);
+  font-family: $secondary-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--accent-color);
-}
+  color: $accent-color;
 
-.logo__label {
-  &_theme_light {
-    color: var(--primary-black-color);
-  }
+  &__label {
+    &_theme_light {
+      color: $primary-black-color;
+    }
 
-  &_theme_dark {
-    color: var(--primary-white-color);
+    &_theme_dark {
+      color: $primary-white-color;
+    }
   }
 }
